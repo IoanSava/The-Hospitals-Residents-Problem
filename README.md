@@ -1,13 +1,5 @@
 # **The Hospitals Residents Problem (HR)**
 
-Compulsory and Optional part for the fourth Advanced Programming Lab
-
-I considered the feedback from the past lab and this time I used:
-
- - lombok Getters and Setters
- - javadoc for every class and method
- - separate packages for Compulsory and Optional parts
-
 Console output:
 
     Residents: R0 R1 R2 R3 
