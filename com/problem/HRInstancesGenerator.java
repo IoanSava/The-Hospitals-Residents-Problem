@@ -1,8 +1,9 @@
-package com.optional;
+package com.problem;
 
-import com.compulsory.Hospital;
-import com.compulsory.Resident;
+import com.models.Hospital;
+import com.models.Resident;
 import com.github.javafaker.Faker;
+import lombok.AllArgsConstructor;
 
 import java.util.*;
 
@@ -12,14 +13,10 @@ import java.util.*;
  *
  * @author Ioan Sava
  */
+@AllArgsConstructor
 public class HRInstancesGenerator {
     private int numberOfResidents;
     private int numberOfHospitals;
-
-    public HRInstancesGenerator(int numberOfResidents, int numberOfHospitals) {
-        this.numberOfResidents = numberOfResidents;
-        this.numberOfHospitals = numberOfHospitals;
-    }
 
     public Set<Resident> generateResidents() {
         Faker faker = new Faker();

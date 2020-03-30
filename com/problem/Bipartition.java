@@ -1,7 +1,8 @@
-package com.optional;
+package com.problem;
 
-import com.compulsory.Hospital;
-import com.compulsory.Resident;
+import com.models.Hospital;
+import com.models.Resident;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 import java.util.Set;
@@ -14,12 +15,8 @@ import java.util.Set;
  * @author Ioan Sava
  */
 @Getter
+@AllArgsConstructor
 public class Bipartition {
     private Set<Resident> S;
     private Set<Hospital> T;
-
-    public Bipartition(Set<Resident> s, Set<Hospital> t) {
-        S = s;
-        T = t;
-    }
 }

@@ -1,6 +1,7 @@
-package com.compulsory;
+package com.models;
 
-import com.optional.Element;
+import com.problem.Element;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 import java.util.Objects;
@@ -12,12 +13,9 @@ import java.util.Objects;
  *
  */
 @Getter
+@AllArgsConstructor
 public class Resident implements Comparable<Resident>, Element {
     private String name;
-
-    public Resident(String name) {
-        this.name = name;
-    }
 
     @Override
     public String toString() {

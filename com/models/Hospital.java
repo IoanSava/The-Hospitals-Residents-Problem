@@ -1,6 +1,9 @@
-package com.compulsory;
+package com.models;
 
-import com.optional.Element;
+import com.problem.Element;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Objects;
 
@@ -10,30 +13,15 @@ import java.util.Objects;
  *
  * @author Ioan Sava
  */
+@Getter
+@Setter
+@AllArgsConstructor
 public class Hospital implements Comparable<Hospital>, Element {
     private String name;
     private int capacity;
 
     public Hospital(String name) {
         this.name = name;
-    }
-
-    public Hospital(String name, int capacity) {
-        this.name = name;
-        this.capacity = capacity;
-    }
-
-    @Override
-    public String getName() {
-        return name;
-    }
-
-    public int getCapacity() {
-        return capacity;
-    }
-
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
     }
 
     @Override

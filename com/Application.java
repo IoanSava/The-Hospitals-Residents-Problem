@@ -1,8 +1,10 @@
-package com.compulsory;
+package com;
 
-import com.optional.HRInstancesGenerator;
-import com.optional.Matching;
-import com.optional.Problem;
+import com.models.Hospital;
+import com.models.Resident;
+import com.problem.HRInstancesGenerator;
+import com.problem.Matching;
+import com.problem.Problem;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -11,7 +13,7 @@ import java.util.stream.IntStream;
 /**
  * @author Ioan Sava
  */
-public class Main {
+public class Application {
     /**
      * @param residents current list of residents
      * @param hospitals current list of available hospitals

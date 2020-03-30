@@ -1,6 +1,11 @@
-# **The Hospitals Residents Problem (HR)**
 
-Console output:
+
+# The Hospitals/Residents Problem (HR)
+ 
+An instance of HR involves a set of _residents_ and a set of _hospitals_, each resident seeking a post at one hospital, and each hospital having a number of available posts (its capacity). Each resident _ranks_ some (acceptable) hospitals in strict order, and each hospital ranks its applicants in strict order. A _matching_ is a set of pairs _(resident, hospital)_ such that each resident is assigned to at most one hospital and the capacities of the hospitals are not exceeded. A matching is _stable_ if there is no pair (r, h) such that r is assigned to h' but r prefers h better than h' and h prefers r better than some of its assigned residents. We consider the problem of creating a stable matching between residents and hospitals.
+
+
+Console output example:
 
     Residents: R0 R1 R2 R3 
     Hospitals: H0(1) H1(2) H2(2)
@@ -20,6 +25,6 @@ Console output:
     Matching is stable
     
     Solution for a problem with random instance: 
-    Matching{{Eldon Cummings=74822 Considine Ferry(2), Cyndi Crooks=917 Darrick Spring(2), Mrs. Kasie Hansen=917 Darrick Spring(2), Alverta Treutel=187 Hessel Station(0)}}
+    Matching{{Deana Borer=0481 Grady Isle(1), Wynell Stanton=0481 Grady Isle(1), Nubia Russel=0481 Grady Isle(1), Andre Botsford=0481 Grady Isle(1), Zachary Emmerich=90196 Rolande Parks(5), Sonny Donnelly=1672 Kerluke Island(0)}}
     Matching is stable
 

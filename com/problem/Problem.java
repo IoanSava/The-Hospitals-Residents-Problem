@@ -1,7 +1,7 @@
-package com.optional;
+package com.problem;
 
-import com.compulsory.Hospital;
-import com.compulsory.Resident;
+import com.models.Hospital;
+import com.models.Resident;
 import lombok.Getter;
 
 import java.util.*;
