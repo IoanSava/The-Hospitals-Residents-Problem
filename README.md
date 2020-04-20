@@ -1,7 +1,9 @@
 
 
 # The Hospitals/Residents Problem (HR)
- 
+
+# uuuu DONT ACCEPT MY PULL REQUEST PLZZZZ
+
 An instance of HR involves a set of _residents_ and a set of _hospitals_, each resident seeking a post at one hospital, and each hospital having a number of available posts (its capacity). Each resident _ranks_ some (acceptable) hospitals in strict order, and each hospital ranks its applicants in strict order. A _matching_ is a set of pairs _(resident, hospital)_ such that each resident is assigned to at most one hospital and the capacities of the hospitals are not exceeded. A matching is _stable_ if there is no pair (r, h) such that r is assigned to h' but r prefers h better than h' and h prefers r better than some of its assigned residents. We consider the problem of creating a stable matching between residents and hospitals.
 
 
